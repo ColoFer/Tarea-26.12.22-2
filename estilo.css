@@ -1,0 +1,56 @@
+/*Selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Header*/
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/*Nav (Menu)*/
+nav {
+    display: flex;
+    flex-direction: row;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+/*Espacio entre palabas (menu)*/
+nav > a{
+    margin: 15px;
+    font-size: 20px;
+}
+img{
+    display: flex;
+    width: 11rem;
+}
+
+/*Iconos*/
+.iconos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+} 
+.iconos > .msj{
+    width: 40px;
+    padding: 1rem;
+    border: 0;
+}
+.iconos > .campana{
+    width: 40px;
+    padding: 1rem;
+}
+a > img{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 70%;
+    padding: 1rem;
+}
